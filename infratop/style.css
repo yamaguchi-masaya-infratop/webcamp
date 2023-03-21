@@ -35,28 +35,24 @@ header .heading { /* headerタグ内のheadingクラスにのみ反映される 
 
 .main-visual {
   width: 100%; /* 横幅いっぱい */
-  height: 300px; /* 高さ300px */
-}
-
-.main-visual-content {
-  width: 350px; /* 横幅350px */
-  height: 300px; /* 親の高さに揃える */
+  height: 500px; /* 高さ500px */
 }
 
 .main {
   width: 840px; /* 横幅840px */
+  /* background-color, heightの指定を解除 */
   display: flex; /* Flexboxの利用 */
-  justify-content: center; /* 要素の横並び・中央寄せ */
+  justify-content: center; /* 子要素の横並び・中央寄せ */
   margin: 0 auto; /* 中央寄せ（左右に余白がないとできない） */
 }
 
 .blog {
-  width: 600px; /* 横幅600px */
+  width: 500px; /* 横幅500px */
   height: 1400px; /* 高さ1400px */
 }
 
-.sidebar {
-  width: 240px; /* 横幅240px */
+.sidebar{
+  width: 230px; /* 横幅230px */
   height: 1400px; /* 高さ1400px */
 }
 
